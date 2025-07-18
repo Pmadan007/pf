@@ -1,24 +1,25 @@
 import React from 'react';
 import './Recommendations.css';
-import chrisProfilePic from '../images/chris.jpg'; // Adjust the path based on your directory structure
+import chrisProfilePic from '../images/vas.jpeg'; // Adjust the path based on your directory structure
 
 const Recommendations: React.FC = () => {
   return (
     <div className='timeline-container'>
       <div className="recommendation-card">
         <div className="recommendation-header">
-          <img src={chrisProfilePic} alt="Chris Smith" className="profile-pic" />
+          <img src={chrisProfilePic} alt="Vasudha Tapriya" className="profile-pic" />
           <div>
-            <h3>Chris Smith</h3>
-            <p>Head of Kajima Community</p>
-            <p className="date">October 24, 2024</p>
+            <h3>Vasudha Tapriya</h3>
+            <p>Product @ Morgan Stanley</p>
+            <p className="date">May 5, 2025</p>
           </div>
         </div>
         <div className="recommendation-body">
-          <p>✨ "It is with great pleasure that I write this reference for Sumanth, who worked for us as a software developer at Kajima from June 2023. Unfortunately, due to a change in the company’s structure, we have made the difficult decision to make their position redundant. This in no way reflects on their performance, which was consistently excellent.</p>
-          <p>During their time with us, Sumanth demonstrated strong technical expertise, a passion for problem-solving, a willingness to learn, and a collaborative spirit that greatly contributed to our team’s success. They played a pivotal role in developing and maintaining key features of our software <strong>BookingsPlus</strong> and <strong>NHS Open Space</strong>, consistently delivering high-quality code while meeting project deadlines. Their ability to quickly adapt to new technologies and their proactive approach to finding innovative solutions set them apart."</p>
-          <p>💼 "Sumanth also showed exceptional teamwork and communication skills, effectively collaborating with cross-functional teams, including product managers, designers, and QA. Their professionalism, positive attitude, and dedication to their work made them an asset to the team."</p>
-          <p>🌟 "I have no doubt that Sumanth will be a valuable addition to any organization, and I wholeheartedly recommend them for any future opportunities."</p>
+          <p>"Pranjal is an outstanding graphic designer who combines creativity with precision.</p>
+         <p></p> 
+<p>His disciplined approach ensures timely delivery without compromising on quality. </p>
+          <p></p>
+<p>Collaborating with him is seamless, he communicates effectively, embraces feedback, and consistently exceeds expectations!"</p>
         </div>
       </div>
     </div>
