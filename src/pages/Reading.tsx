@@ -6,8 +6,8 @@ import atomicHabits from '../images/atomic_habits.jpg';
 import richDadPoorDad from '../images/rich_dad_poor_dad.jpg';
 import alchemist from '../images/alchemist.jpg';
 import eatThatFrog from '../images/eat_that_frog.jpg';
-import vijayanikiAidhuMetlu from '../images/vijayaniki_aidu_metlu.jpg';
-import venneloAdapilla from '../images/vennelo_adapilla.jpeg';
+import sla from '../images/sla.jpg';
+import sj from '../images/sj.jpg';
 
 const books = [
   {
@@ -35,16 +35,16 @@ const books = [
     description: "A motivational book on overcoming procrastination.",
   },
   {
-    title: "Vijayaniki Aidhu Metlu",
-    author: "Yandamoori Veerendranath",
-    imgSrc: vijayanikiAidhuMetlu,
-    description: "An inspirational Telugu book for personal growth.",
+    title: "Steal Like An Artist",
+    author: "Austin Kleon",
+    imgSrc: sla,
+    description: "A guide to unlocking creativity by learning from and building on the work of others.",
   },
   {
-    title: "Vennelo Adapilla",
-    author: "Yandamoori Veerendranath",
-    imgSrc: venneloAdapilla,
-    description: "A classic Telugu romantic novel that touches the heart.",
+    title: "Steve Jobs Biography",
+    author: "Walter Issacson",
+    imgSrc: sj,
+    description: "A biography exploring the life, vision, and impact of Apple’s iconic co-founder.",
   },
 ];
 
